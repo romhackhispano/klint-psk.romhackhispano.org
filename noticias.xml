@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+    <noticia id="8">
+            <titulo>Breve actualización veraniega</titulo>
+            <fecha>13/7/2014</fecha>
+            <cuerpo>
+                <![CDATA[
+                    Una breve actualización como su nombre indica. Tenía pensado publicar la traducción del Fire Emblem en
+                    dos días... pero por diversos motivos eso es simplemente imposible. El trabajo se está haciendo, y estimo
+                    que un mes más, si nos ponemos las pilas, estará hecho. Otras cosas que deci:<br>
+                    <ul>
+                        <li>He arreglado los slideshows de imágenes, o más bien me he buscado una librería de jQuery
+                            mejor.</li>
+                        <li>He añadido créditos en las páginas de los proyectos. Así la sección de colaboraciones
+                            está más organizada.</li>
+                        <li>Más descargas, un par de tonterías: un calculador de promedios de Fire Emblem que hice
+                            hace tiempo y un generador de ejercicios del Test de Tolouse.</li>
+                    </ul> 
+                ]]>
+            </cuerpo>
+    </noticia>
+    <noticia id="7">
+            <titulo>Vuelvo a la carga de nuevo</titulo>
+            <fecha>20/2/2014</fecha>
+            <cuerpo><![CDATA[Una vez más vuelvo a actualizar Klint Proguctions. Nuevo diseño, más contenido, menos faltas de ortografía, un twitter usado para todo menos para lo que lo hice. Disfrutadlo :3.]]>
+            </cuerpo>
+    </noticia>
+    <noticia id="6">
+        <titulo>Gran lavado de cara</titulo>
+        <fecha>08/11/2011</fecha>
+        <cuerpo>
+            <![CDATA[
+            <p>Un gran y evidente lavado de cara, como puede verse. Menos mareos por el fondo, secciones más bonitas, y el código algo más limpio.</p>
+            ]]>
+        </cuerpo>
+    </noticia>
+    <noticia id="5">
+        <titulo>Un nigromante revivió el proyecto</titulo>
+        <fecha>27/07/2011</fecha>
+        <cuerpo>
+            <![CDATA[
+            <p>Al fin, tras sangre, sudor, lágrimas, y "HAAAAAAAAAAAI!" la traducción de Kirby's Adventure está terminada, y la web ha sufrido también algunos retoques. Disfrutadla, es una traducción muy, muy buena.</p>
+    <p>Y eso viene a significar otra cosa: tal como dije en mi blog el Quest for Glory queda aparcado, y siendo así, solo un proyecto más se vislumbra en el horizonte, de momento: Fire Emblem Mistery of the Emblem. Y ese juego también será traducido, sin duda.</p>
+            ]]>
+        </cuerpo>
+    </noticia>
+    <noticia id="4">
+        <titulo>Even moar</titulo>
+        <fecha>31/03/2011</fecha>
+        <cuerpo>
+            <![CDATA[
+            <p>Más proyectos, más detallitos bonicos, más faltas de ortografia... en definitiva, ¡más Klint Proguctions! Y mirad la traducción del Fragile Dreams, que nos ha quedado majísima :3</p>
+            ]]>
+        </cuerpo>
+    </noticia>
+    <noticia id="3">
+        <titulo>Kawaii</titulo>
+        <fecha>11/01/2011</fecha>
+        <cuerpo>
+            <![CDATA[
+            <p>Unas cuantas secciones, unas pocas imágenes en el menú izquierdo para hacerlo más bonito, y poco más. Quizas vaya haciendo algunas otras pequeñas mejoras.</p>
+            ]]>
+        </cuerpo>
+    </noticia>
+    <noticia id="2">
+        <titulo>Adecentando y tal</titulo>
+        <fecha>19/11/2010</fecha>
+        <cuerpo>
+            <![CDATA[
+            <p>Le he dado una revisión bien maja y bonita a las secciones de la web. Algunas ya no son tan escuetas, están mejor estructuradas o presentan más información. He dividido así mismo los proyectos en categorías bastante obvias, pero por si alguien se pierde, las aclaro: los proyectos terminados son aquellos... terminados, obviamente. Los que están en curso son los que realizo actualmente cuando tengo tiempo, y no tienen que ser necesariamente al mismo tiempo. Por último las pruebas técnicas son simplemente juegos que miré internamente, le hice un par de pruebas y dejé una captura demostrándolo. Puede que sean proyectos futuros, puede que los haga en grupo dedicándome yo al hacking, o puede que no haga nada con ellos.</p>
+    <p>También decir que por razones que escapan a toda lógica he sido elegido como una de las mejores paginas de traducción de videojuegos del 2010 por la pagina de <a href="http://www.ibidemgroup.es/traduccion/recursos/traducciones-videojuegos.html">Ibidem Group</a>. Esta ha sido una motivación importante para adecentar la web y actualizar el blog, y algo que sin duda ha sido posible gracias a... que en la última actualización puse sección de Contacto.</p>
+    <p>Por último, no dejare de recomendar encarecidamente que le echéis un vistazo a la ya    terminada traducción del Tales of Destiny por parte de <a href="http://blog.tales-tra.com">Tales Translations</a>, a la izquierda tenéis el enlace a la pagina web de la traducción, ha sido mucho tiempo, pero creo que el resultado es para sentirnos algo orgullosos.</p>
+            ]]>
+        </cuerpo>
+    </noticia>
+    <noticia id="1">
+        <titulo>Reverse/Rebirth</titulo>
+        <fecha>29/06/2010</fecha>
+        <cuerpo>
+            <![CDATA[
+            <p>¡El garito de Klint reabre sus puertas! Esta vez se actualizara
+    más a menudo y todo será mas bonito y bien hecho. La mayoría de
+    noticias se darán en el <a href="http://klint-psk.blogspot.com/">
+    blog</a> mientras que las actualizaciones importantes de las
+    paginas y demases se dirán por aquí (obviamente no actualizaré
+    cada dos días, que es un poco infernal y ganas de ser masoca).</p>
+
+    <p>Dicho lo cual, seguiré con mis traducciones. Ah por cierto,
+    Kirby Adventures y Tales of Destiny no son, obviamente, proyectos
+    exclusivos míos, sino que son hechos en grupos en los que participo,
+    mayormente como simple traductor.<br/>
+    Bueno, nada queda por decir, así pues, ¡declaro Klint Proguctions
+    resucitado! Al menos durante el verano...</p>
+            ]]>
+        </cuerpo>
+    </noticia>
+</noticias>

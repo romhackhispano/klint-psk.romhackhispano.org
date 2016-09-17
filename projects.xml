@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proyectos>
+    <proyecto class="pry-term" id="met"   url="none" type="P">
+        Metroid
+    </proyecto>
+    <proyecto class="pry-term" id="met2"  url="none" type="P">
+        Metroid II
+    </proyecto>
+    <proyecto class="pry-term" id="met3"  url="none" type="P">
+        Super Metroid
+    </proyecto>
+    <proyecto class="pry-curs" id="fe3"   url="none" type="P">
+        Fire Emblem - Mystery of the Emblem
+    </proyecto>
+    <proyecto class="pry-term" id="tod"   url="http://blog.tales-tra.com/proyectos/tales-of-destiny/" type="C">
+        Tales of Destiny
+    </proyecto>
+    <proyecto class="pry-term" id="kirb1" url="none" type="C">
+        Kirby's Adventure
+    </proyecto>
+    <proyecto class="pry-term" id="frag"  url="http://tiovictor.romhackhispano.org/?page_id=450" type="C">
+        Fragile Dreams
+    </proyecto>
+</proyectos>
