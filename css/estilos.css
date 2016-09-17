@@ -1,0 +1,285 @@
+/* CSS Document */
+/*>>>>>>>DECLARACIONES GENERALES DEL DOCUMENTO<<<<<<*/
+@font-face {
+    font-family: 'ubuntu-r';
+    src: url('../fonts/Ubuntu-R.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Augusta';
+    src: url('../fonts/Augusta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AugustaS';
+    src: url('../fonts/Augusta-Shadow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'ubuntu-r', Arial, "Times New Roman";
+    background:url(../img/bg.png) repeat-x fixed;
+    background-color: #EFA052;
+    padding:0;
+    margin:0;
+    color:white;
+    text-shadow: 1px 1px black;
+    font-size:19px;
+}
+h1{
+    font-family:'AugustaS';
+    font-size:2.5em;
+    text-align:center;
+    font-style:italic;
+    margin: 10px auto 10px auto;
+}
+h3{
+    font-family:'Augusta';
+    text-shadow: 2px 2px black;
+    font-size:28px;
+    margin-bottom:5px;
+}
+h4{
+    font-family:'Augusta';
+    text-shadow: 2px 2px black;
+    font-size:22px;
+    margin-top:5px;
+}
+img{
+    overflow:hidden;
+    border: gold solid 2px;
+    box-shadow: 1px 1px 3pt 2pt goldenrod;
+}
+iframe{
+    position:relative;
+    left:17.5%;
+    border: gold solid 2px;
+    box-shadow: 1px 1px 3pt 2pt goldenrod;
+}
+table{margin-left:auto; margin-right:auto;}
+table tr td img{margin:1%;}
+table tr td p{margin:0.5%;}
+a:visited{color:white;}
+a{color:white}
+
+.lihr{
+    list-style-image: none;
+    list-style-type: none;
+    margin-left:0;
+    padding-left: 0;
+    width:60%;
+}
+.twitter{list-style-image:url(img/Twit.png);}
+.email{list-style-image:url(img/Mail.png);}
+
+/*>>>>>>>DECLARACIONES ESPECÍFICAS DEL DOCUMENTO<<<<<<*/
+
+#header{
+/*=====POSICIONAMIENTO======*/
+	position:relative;
+	height:175px;
+	
+/*==========ESTILO==========*/
+	background-image:url(../img/KP.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-color:#2E6587;
+	border: #2E6587 thin solid;
+}
+    #tagline{
+        position:absolute;
+        top: 140px;
+        left: 47%;
+        margin:0;
+        padding:0;
+        
+        font-family:'Augusta';
+	text-shadow: 2px 2px black;
+        font-style: italic;
+	font-size:18px;
+        
+        height: 30px;
+    }
+
+
+#menubarWrapper{ text-align: center;}
+#menubar {
+/*=====POSICIONAMIENTO======*/
+        display: inline-block;
+	height:40px;
+/*==========ESTILO==========*/	
+	background-color:#2E6587;
+	border: gold 3px solid;
+	border-radius: 0 0 25px 25px;
+	border-top:none;
+}
+	/*=====MENÚ HORIZONTAL EN CABECERA======*/
+	#menubar ul{ margin:0;padding:0;width:auto;}
+	#menubar li {float:left;list-style:none;margin-left:7.5px; margin-right:7.5px;}
+	#menubar li a{color:white;font-size:24px; text-decoration:none; text-shadow: 1px 1px black;}
+	
+
+#sidebar{
+/*=====POSICIONAMIENTO======*/
+	position:fixed;
+	float:left;
+	clear:left;
+	margin-top:1%;
+	left:-13%;
+	width:15%;
+	height:55%;
+        
+        overflow-y: scroll;
+        overflow-x: hidden;
+        direction:rtl; 
+/*==========ESTILO==========*/
+	background-color:#2E6587; /*46 101 135*/
+	background-image:url(../img/Proyectos.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	border: gold 3px solid;
+	box-shadow: 3px 3px 3pt 2pt goldenrod;
+	border-radius: 0 25px 25px 0;
+        padding:0;
+/*=====ESTILO DE TEXTO======*/	
+	font-family:'Augusta';
+}
+        #aux {
+            direction: ltr; 
+            margin-top: 0; 
+            margin-right:0; 
+            margin-left:0;
+            margin-bottom: 0;
+            
+            padding-top:0;
+            padding-left:30px;
+            padding-right: 20px;
+        }
+        .pry-term{ list-style-image: url("../img/pry-term.png"); }
+        .pry-term-aj{ list-style-image: url("../img/pry-term-aj.png"); }
+        .pry-curs{ list-style-image: url("../img/pry-curs.png"); }
+	#sidebar a{font-size:24px; text-decoration:none; text-shadow: 1px 1px black;}
+	#sidebar a:link{color:white;}
+	#sidebar a:active{}
+	#sidebar a:hover{}
+	#sidebar a:visited{color:white;}
+	/*=====MENÚES EN BARRA LATERAL=====*/
+	#sidebar ul {position:relative;top:5%; margin-bottom:15%}
+	#sidebar li {margin-top:1%; margin-bottom:15px;}
+	
+#rightbar{
+/*=====POSICIONAMIENTO======*/
+	position:fixed;
+	top:29%;
+	right:-15%;
+	width:17%;
+	height:69%;
+        
+        overflow: hidden;
+/*==========ESTILO==========*/
+	background-color:#2E6587; /*46 101 135*/
+	background-image:url(../img/Twitter.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	border: gold 3px solid;
+	box-shadow: 3px 3px 3pt 2pt goldenrod;
+	border-radius: 25px 0 0 25px;
+        padding:0;
+/*=====ESTILO DE TEXTO======*/	
+	font-family:'Augusta';
+}
+    .twitter-timeline{
+        width:80%;
+        height:100%;
+        margin:0;
+        
+    }
+        
+#content{
+/*=====POSICIONAMIENTO======*/
+	position:relative;
+	width:55%;
+	height:auto;
+	
+	margin-top:1%;
+	margin-left:auto;
+	margin-right:auto;
+/*==========ESTILO==========*/
+	border: solid 3px gold;
+	border-radius:25px;
+	box-shadow: 3px 3px 3pt 2pt goldenrod;
+	background-color:#2E6587;
+	padding:40px;
+	overflow:hidden;
+}
+#slidesWrapper{
+    width:300px;
+    height: 330px;
+    float:right;
+    border: solid 3px gold;
+	box-shadow: 3px 3px 3pt 2pt goldenrod;
+}
+.downloadIcon{
+    border-radius: 25px;
+    box-shadow: 1px 1px 3pt 2pt goldenrod;
+}
+#projectData h3{ margin: 5px 0; }
+#projectData p{ margin: 5px 0; }
+#projectCredits{ margin-left: 5%;}
+    #projectCredits span{ 
+        border-left: solid 2px goldenrod;
+        border-bottom: solid 2px goldenrod;
+        border-radius: 0 0 0 15px;
+        display:block;
+        margin-bottom: 1%;
+    }
+    #projectCredits .persona{
+        border: none;
+        margin-left: 0;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    #projectCredits .cargo{
+        border: none;
+        margin-left: 5%;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+
+
+#footer{
+/*=====POSICIONAMIENTO======*/
+	position:relative;
+	top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	width:60%;
+	height:auto;
+/*==========ESTILO==========*/
+	border: gold 3px solid;
+	box-shadow: 3px 3px 3pt 2pt goldenrod;
+	border-radius:25px 25px 25px 25px;
+	padding:5px;
+	text-align:center;
+	font-size:12px;
+	background: url() repeat-y ;
+	color:black;
+	text-shadow:none;
+}
+
+.pry-img{
+    width:300px;
+    height: 300px;
+    border: none;
+    box-shadow: none;
+}
+.simple-img{
+    overflow:hidden;
+    border: none;
+    box-shadow: none;
+    
+}
