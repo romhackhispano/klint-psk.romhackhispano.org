@@ -1,14 +1,14 @@
 <h1>Noticias</h1>
-<?
+<?php
 $fXML = new SimpleXMLElement("noticias.xml",NULL,TRUE);
 //var_dump($fXML);
 for( $i=0; $i <= sizeof($fXML[0]->noticia)-1; $i++){
     //var_dump($fXML[0]->noticia[$i]->titulo);
     ?>
-<h3><?=$fXML[0]->noticia[$i]->titulo?></h3>
-<h4>Publicado el <?=$fXML[0]->noticia[$i]->fecha?></h4>
-<?=$fXML[0]->noticia[$i]->cuerpo?>
-    <?
+<h3><?php echo $fXML[0]->noticia[$i]->titulo; ?></h3>
+<h4>Publicado el <?php echo $fXML[0]->noticia[$i]->fecha; ?></h4>
+<?php echo $fXML[0]->noticia[$i]->cuerpo; ?>
+<?php
 }
 ?>
 <!--
