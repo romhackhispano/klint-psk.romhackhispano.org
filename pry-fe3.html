@@ -58,8 +58,35 @@
         </div>
     	<div id="content">
     	    <h1>Fire Emblem: Mystery of the Emblem</h1>
-<? $numImg = 5;?>
-<? include 'slides.php';?>
+<div id="slidesWrapper">
+    <ul class="bjqs">
+        <li><img src="img/Capturas/pry-fe3-1.png" alt="<?=$urlpag?>-<?=$i?>" class="pry-img"/></li>
+        <li><img src="img/Capturas/pry-fe3-2.png" alt="<?=$urlpag?>-<?=$i?>" class="pry-img"/></li>
+        <li><img src="img/Capturas/pry-fe3-3.png" alt="<?=$urlpag?>-<?=$i?>" class="pry-img"/></li>
+        <li><img src="img/Capturas/pry-fe3-4.png" alt="<?=$urlpag?>-<?=$i?>" class="pry-img"/></li>
+        <li><img src="img/Capturas/pry-fe3-5.png" alt="<?=$urlpag?>-<?=$i?>" class="pry-img"/></li>
+    </ul>
+</div>
+<script>
+/*
+$(function() {
+$('#slides').slidesjs({
+width: 300,
+height: 300,
+active: false
+});
+});*/
+$(function() {
+    $('#slidesWrapper').bjqs({
+        'height'        : 300,
+        'width'         : 300,
+        'nexttext'      : '>>', // Text for 'next' button (can use HTML)
+        'prevtext'      : '<<', // Text for 'previous' button (can use HTML)
+        'showcontrols'  : true, // show next and prev controls
+        'animtype'      : 'slide' // accepts 'fade' or 'slide'
+    });
+});
+</script>
 <div id="projectData">
     <h3>Año:</h3> 
     <p>1993</p>
